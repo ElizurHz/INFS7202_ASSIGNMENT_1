@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="description" content="A fan site for Kim Yerim">
+    <meta name="author" content="Haoze Xu">
+
+    <link rel="icon" href="images/favicon.png">
+
+    <title>ALL FOR YERI</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js" ></script>
+    <link href="css/uikit.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- banner -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 banner">
+        <div id="site_logo">
+          <img src="images/LOGO.png" alt="All For Yeri" height="100" width="400" >
+        </div>
+        <div id="banner_decoration">
+          <img src="images/decoration.png" alt="decoration">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- navigation bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-collapse collapse nav_bar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="About_Yeri.html">About Yeri</a></li>
+          <li><a href="About_Us.html">About Us</a></li>
+          <li><a href="Feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- bottom bar -->
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-collapse collapse nav_bar">
+        <ul class="nav navbar-nav">
+          <li>
+            <button class="btn btn-default" id="login" data-toggle="modal" data-target="#signin">Login</button>
+          </li>
+        </ul>
+      </div>
+      <div id="container">
+        <form class="navbar-form navbar-right">
+          <input type="text" class="form-control" placeholder="Search...">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tiles -->
+  <div class="container main_content">
+    <div class="row">
+      <!-- Left-side Tile -->
+      <div class="tiles left">
+          <article class="post tag-ad">
+            <div class="post-featured-image">
+                <a class="thumbnail loaded" href="Content.html">
+                  <img class="main_img" src="images/fancam1.jpg" alt="Content_1">
+                </a>
+            </div>
+            <h2 class="post-title">
+              <a href="#">Fancam 1</a>
+            </h2>
+          </article>
+      </div>
+      <!-- Right-side Tile -->
+      <div class="tiles right">
+        <article class="post tag-ad">
+          <div class="post-featured-image">
+              <a class="thumbnail loaded" href="#">
+                <img class="main_img" src="images/fancam2.jpg" alt="Content_2">
+              </a>
+          </div>
+          <h2 class="post-title">
+            <a href="#">Fancam 2</a>
+          </h2>
+        </article>
+      </div>
+      <div class="tiles left">
+        <article class="post tag-ad">
+          <div class="post-featured-image">
+              <a class="thumbnail loaded" href="#">
+                <img class="main_img" src="images/fancam3.jpg" alt="Content_3">
+              </a>
+          </div>
+          <h2 class="post-title">
+            <a href="#">Fancam 3</a>
+          </h2>
+        </article>
+      </div>
+      <div class="tiles right">
+        <article class="post tag-ad">
+          <div class="post-featured-image">
+              <a class="thumbnail loaded" href="#">
+                <img class="main_img" src="images/fancam4.jpg" alt="Content_4">
+              </a>
+          </div>
+          <h2 class="post-title">
+            <a href="#">Fancam 4</a>
+          </h2>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="signin" tabindex="-1" role="dialog"
+   aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close"
+               data-dismiss="modal" aria-hidden="true">
+            </button>
+            <h4 class="modal-title" id="myModalLabel">
+               Sign In
+            </h4>
+         </div>
+         <div class="modal-body">
+           <form class="form-signin">
+             <label for="inputEmail" class="sr-only">Email address</label>
+             <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+             <label for="inputPassword" class="sr-only">Password</label>
+             <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+             <div class="checkbox">
+               <label id="rem">
+                 <input type="checkbox" value="remember-me"> Remember me
+               </label>
+             </div>
+           </form>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-primary" id="signinButton" onclick="submit();">Sign In</button>
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>© 43400465, Haoze Xu</p>
+    <div class="blank"></div>
+  </footer>
+
+</body>

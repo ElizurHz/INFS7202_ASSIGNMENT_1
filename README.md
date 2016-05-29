@@ -1,6 +1,6 @@
 # INFS7202 ASSIGNMENT 1
 ## Update
-30/05/2016: For some implementation, visit [here](https://github.com/ElizurHz/INFS7202).
+30/05/2016: For some implementation(Assignment 2), visit [here](https://github.com/ElizurHz/INFS7202).
 ## Overview
   This is the first assignment of INFS7202 (INFS3202 for undergraduates).
   This is only a prototype.
